@@ -132,7 +132,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <div class="col-md-4">
       <label for="inputState" class="form-label">Country</label>
       <select id="inputState" class="form-select" name="country">
-        <option selected>India</option>
+      <option></option>
+        <option>India</option>
         <option>Canada</option>
         <option>U.K</option>
       </select>
@@ -140,7 +141,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <div class="col-md-4">
       <label for="inputState" class="form-label">State</label>
       <select id="inputState" class="form-select" name="state">
-        <option selected>Gujarat</option>
+        <option></option>
+        <option>Gujarat</option>
         <option>Maharastra</option>
         <option>punjab</option>
       </select>
@@ -148,7 +150,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <div class="col-md-4">
       <label for="inputState" class="form-label">Village</label>
       <select id="inputState" class="form-select" name="village">
-        <option selected>Gunasvel</option>
+      <option></option>
+        <option>Gunasvel</option>
         <option>timli</option>
         <option>velanpur</option>
       </select>
@@ -242,8 +245,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             Fname:"please enter your name",
             Mname:"please enter your name",
             Lname:"please enter your name",
-            country:"please enter your name",
-            state:"please enter your name",
+            country:"please enter your country",
+            state:"please enter your state",
             
             email:{
               email:"please enter valid email",
